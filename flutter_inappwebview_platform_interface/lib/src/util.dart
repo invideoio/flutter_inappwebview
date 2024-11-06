@@ -585,7 +585,7 @@ class Color_ extends Color {
   Color_(int value) : super(value);
 }
 
-abstract mixin class ChannelController implements Disposable {
+abstract class ChannelController implements Disposable {
   MethodChannel? _channel;
   Future<dynamic> Function(MethodCall call)? _handler;
 

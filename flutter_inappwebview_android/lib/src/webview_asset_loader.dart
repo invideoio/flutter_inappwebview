@@ -25,7 +25,7 @@ class AndroidPathHandlerCreationParams
 }
 
 ///{@macro flutter_inappwebview_platform_interface.PlatformPathHandler}
-abstract mixin class AndroidPathHandler
+abstract class AndroidPathHandler
     implements ChannelController, PlatformPathHandler {
   final String _id = IdGenerator.generate();
 
